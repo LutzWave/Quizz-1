@@ -12,14 +12,14 @@
 </head>
 
 <body>
-    <form action="" class="Formulario">
+    <form action="" name="Formulario" method="GET" class="Formulario">
         <h1 class="formulario_Titulo">Registrarse</h1>
         <input type="text" id="Nombre" name="Nombre" class="Formulario_Input" placeholder="Nombre Completo">
-        <input type="text" class="Formulario_Input" placeholder="Correo Electronico">
+        <input type="text" id="Correo" name="Correo" class="Formulario_Input" placeholder="Correo Electronico">
         <label for="" class="Formulario_Input">Seleccione una opcion</label>
-        <label><input type="radio" class="Formulario_Radio" name="Registro" value="DNI">DNI</label><br>
+        <label><input type="radio" id="DNI" class="Formulario_Radio" name="Registro" value="DNI">DNI</label><br>
         <input type="text" class="Formulario_Input" placeholder="Ingrese DNI">
-        <label><input type="radio" name ="Registro" value="RUT">RUT</label>
+        <label><input type="radio" id="Rut" name ="Registro" value="RUT">RUT</label>
         <input type="text" class="Formulario_Input" placeholder="Ingrese Rut">
         <input type="submit" class="Formulario_Submit" id="Btn" value="Enviar">
     </form>"
